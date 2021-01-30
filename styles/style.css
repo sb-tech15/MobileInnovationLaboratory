@@ -1,0 +1,36 @@
+html {
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFE2D9),
+	color-stop(0.79, #FFFFFF)
+    );
+    background-image: -o-linear-gradient(bottom, #FFE2D9 0%, #FFFFFF 79%);
+    background-image: -moz-linear-gradient(bottom, #FFE2D9 0%, #FFFFFF 79%);
+    background-image: -webkit-linear-gradient(bottom, #FFE2D9 0%, #FFFFFF 79%);
+    background-image: -ms-linear-gradient(bottom, #FFE2D9 0%, #FFFFFF 79%);
+    background-image: linear-gradient(to bottom, #FFE2D9 0%, #FFFFFF 79%);
+    }
+
+body {
+    margin: 0 1em 0 4.5em;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1em;
+}
+
+button{
+    border: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
